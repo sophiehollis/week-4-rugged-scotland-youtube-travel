@@ -1,0 +1,103 @@
+body{
+    background-color: #fff;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1000px;
+}
+.logo{
+height: 80px;
+width: 120px;
+position: absolute;
+left: 30px;
+}
+ul{
+margin-left: 180px;
+}
+ul li{
+list-style: none;
+display: inline-block;
+line-height: 60px;
+}
+ul li a{
+display: block;
+text-decoration: none;
+font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+color: black;
+padding: 0 30px;
+}
+ul li a:hover{
+    color: #00a8cc;
+    }
+nav{
+    margin-top: 5%; 
+    width: 100%;
+    height: 100px;
+    background-color: #ededed;
+    border-width: 1px 0px 1px;
+    border-color: black;
+    border-style: solid;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #00a8cc;
+}
+.container{
+    width: 100%;
+    background-color: #ededed;
+    border-color: black; 
+    border-width: 1px 0px 1px;
+    border-style: solid; 
+}
+.grid{
+    width: 100%;
+    
+}
+.hero-image{
+    background-image: url("images/image1.jpg");
+    background-color: #fff; /* used if the image is unavailable*/
+    height: 400px;
+    width: 1000px;
+    background-position: center; 
+    background-size: cover; /*resize the background image to cover the entire container*/
+}
+.hero-text{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 22px;
+    color: white; 
+    line-height: 100px;
+    margin-left: 30px;
+}
+button{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #BEEBE9; 
+    height: 40px;
+    width: 130px;
+    border: none;
+}
+p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+.column1of3, .column2of3, .column3of3{
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+}
+.images{
+    height: 200px;
+    width: 100%;
+}
+h2{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    font-size: 28px;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+}
